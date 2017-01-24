@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5DBEB17C1B18CFF400B34395 /* RNVectorIconsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBEB16C1B18CF1500B34395 /* RNVectorIconsManager.m */; };
+		5DBEB17C1B18CFF400B34395 /* RNAgentumIconsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBEB16C1B18CF1500B34395 /* RNAgentumIconsManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5DBEB1501B18CEA900B34395 /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNVectorIcons.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DBEB16B1B18CF1500B34395 /* RNVectorIconsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNVectorIconsManager.h; sourceTree = "<group>"; };
-		5DBEB16C1B18CF1500B34395 /* RNVectorIconsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNVectorIconsManager.m; sourceTree = "<group>"; };
+		5DBEB1501B18CEA900B34395 /* libRNAgentumIcons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAgentumIcons.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBEB16B1B18CF1500B34395 /* RNAgentumIconsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAgentumIconsManager.h; sourceTree = "<group>"; };
+		5DBEB16C1B18CF1500B34395 /* RNAgentumIconsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAgentumIconsManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 		5DBEB1471B18CEA900B34395 = {
 			isa = PBXGroup;
 			children = (
-				5DBEB16A1B18CF1500B34395 /* RNVectorIconsManager */,
+				5DBEB16A1B18CF1500B34395 /* RNAgentumIconsManager */,
 				5DBEB1511B18CEA900B34395 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,26 +50,26 @@
 		5DBEB1511B18CEA900B34395 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DBEB1501B18CEA900B34395 /* libRNVectorIcons.a */,
+				5DBEB1501B18CEA900B34395 /* libRNAgentumIcons.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5DBEB16A1B18CF1500B34395 /* RNVectorIconsManager */ = {
+		5DBEB16A1B18CF1500B34395 /* RNAgentumIconsManager */ = {
 			isa = PBXGroup;
 			children = (
-				5DBEB16B1B18CF1500B34395 /* RNVectorIconsManager.h */,
-				5DBEB16C1B18CF1500B34395 /* RNVectorIconsManager.m */,
+				5DBEB16B1B18CF1500B34395 /* RNAgentumIconsManager.h */,
+				5DBEB16C1B18CF1500B34395 /* RNAgentumIconsManager.m */,
 			);
-			path = RNVectorIconsManager;
+			path = RNAgentumIconsManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5DBEB14F1B18CEA900B34395 /* RNVectorIcons */ = {
+		5DBEB14F1B18CEA900B34395 /* RNAgentumIcons */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DBEB1641B18CEA900B34395 /* Build configuration list for PBXNativeTarget "RNVectorIcons" */;
+			buildConfigurationList = 5DBEB1641B18CEA900B34395 /* Build configuration list for PBXNativeTarget "RNAgentumIcons" */;
 			buildPhases = (
 				5DBEB14C1B18CEA900B34395 /* Sources */,
 				5DBEB14D1B18CEA900B34395 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = RNVectorIcons;
-			productName = RNVectorIcons;
-			productReference = 5DBEB1501B18CEA900B34395 /* libRNVectorIcons.a */;
+			name = RNAgentumIcons;
+			productName = RNAgentumIcons;
+			productReference = 5DBEB1501B18CEA900B34395 /* libRNAgentumIcons.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5DBEB14B1B18CEA900B34395 /* Build configuration list for PBXProject "RNVectorIcons" */;
+			buildConfigurationList = 5DBEB14B1B18CEA900B34395 /* Build configuration list for PBXProject "RNAgentumIcons" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5DBEB14F1B18CEA900B34395 /* RNVectorIcons */,
+				5DBEB14F1B18CEA900B34395 /* RNAgentumIcons */,
 			);
 		};
 /* End PBXProject section */
@@ -120,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DBEB17C1B18CFF400B34395 /* RNVectorIconsManager.m in Sources */,
+				5DBEB17C1B18CFF400B34395 /* RNAgentumIconsManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +240,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DBEB14B1B18CEA900B34395 /* Build configuration list for PBXProject "RNVectorIcons" */ = {
+		5DBEB14B1B18CEA900B34395 /* Build configuration list for PBXProject "RNAgentumIcons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DBEB1621B18CEA900B34395 /* Debug */,
@@ -249,7 +249,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DBEB1641B18CEA900B34395 /* Build configuration list for PBXNativeTarget "RNVectorIcons" */ = {
+		5DBEB1641B18CEA900B34395 /* Build configuration list for PBXNativeTarget "RNAgentumIcons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DBEB1651B18CEA900B34395 /* Debug */,

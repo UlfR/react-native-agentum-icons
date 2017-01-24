@@ -1,17 +1,17 @@
 //
-//  RNVectorIconsManager.m
-//  RNVectorIconsManager
+//  RNAgentumIconsManager.m
+//  RNAgentumIconsManager
 //
 //  Created by Joel Arvidsson on 2015-05-29.
 //  Copyright (c) 2015 Joel Arvidsson. All rights reserved.
 //
 
-#import "RNVectorIconsManager.h"
+#import "RNAgentumIconsManager.h"
 #import <React/RCTConvert.h>
 #import <React/RCTBridge.h>
 #import <React/RCTUtils.h>
 
-@implementation RNVectorIconsManager
+@implementation RNAgentumIconsManager
 
 @synthesize bridge = _bridge;
 RCT_EXPORT_MODULE();
@@ -35,7 +35,7 @@ RCT_EXPORT_METHOD(getImageForFont:(NSString*)fontName withGlyph:(NSString*)glyph
 
   NSString *hexColor = [self hexStringFromColor:color];
 
-  NSString *fileName = [NSString stringWithFormat:@"tmp/RNVectorIcons_%@_%hu_%.f%@@%.fx.png", fontName, [glyph characterAtIndex:0], fontSize, hexColor, screenScale];
+  NSString *fileName = [NSString stringWithFormat:@"tmp/RNAgentumIcons_%@_%hu_%.f%@@%.fx.png", fontName, [glyph characterAtIndex:0], fontSize, hexColor, screenScale];
   NSString *filePath = [NSHomeDirectory() stringByAppendingPathComponent:fileName];
 
   if(![[NSFileManager defaultManager] fileExistsAtPath:filePath]) {

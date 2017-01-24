@@ -1,4 +1,4 @@
-package com.oblador.vectoricons;
+package re.agentum.icons;
 
 import android.content.Context;
 import android.graphics.Paint;
@@ -24,18 +24,18 @@ import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class VectorIconsModule extends ReactContextBaseJavaModule {
+public class AgentumIconsModule extends ReactContextBaseJavaModule {
 
   private static final Map<String, Typeface> sTypefaceCache = new HashMap<String, Typeface>();
 
-  public static final String REACT_CLASS = "RNVectorIconsModule";
+  public static final String REACT_CLASS = "RNAgentumIconsModule";
 
   @Override
   public String getName() {
     return REACT_CLASS;
   }
 
-  public VectorIconsModule(ReactApplicationContext reactContext) {
+  public AgentumIconsModule(ReactApplicationContext reactContext) {
     super(reactContext);
   }
 

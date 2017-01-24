@@ -1,4 +1,4 @@
-package com.oblador.vectoricons;
+package re.agentum.icons;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
@@ -11,15 +11,15 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class VectorIconsPackage implements ReactPackage {
+public class AgentumIconsPackage implements ReactPackage {
 
-  public VectorIconsPackage() {}
+  public AgentumIconsPackage() {}
 
   @Override
   public List<NativeModule> createNativeModules(
       ReactApplicationContext reactContext) {
     List<NativeModule> modules = new ArrayList<>();
-    modules.add(new VectorIconsModule(reactContext));
+    modules.add(new AgentumIconsModule(reactContext));
     return modules;
   }
 

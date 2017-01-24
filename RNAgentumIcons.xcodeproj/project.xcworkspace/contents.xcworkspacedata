@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:RNVectorIcons.xcodeproj">
+      location = "self:RNAgentumIcons.xcodeproj">
    </FileRef>
 </Workspace>

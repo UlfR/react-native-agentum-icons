@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5DBEB14F1B18CEA900B34395"
-               BuildableName = "libRNVectorIcons.a"
-               BlueprintName = "RNVectorIcons"
-               ReferencedContainer = "container:RNVectorIcons.xcodeproj">
+               BuildableName = "libRNAgentumIcons.a"
+               BlueprintName = "RNAgentumIcons"
+               ReferencedContainer = "container:RNAgentumIcons.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5DBEB15A1B18CEA900B34395"
-               BuildableName = "RNVectorIconsTests.xctest"
-               BlueprintName = "RNVectorIconsTests"
-               ReferencedContainer = "container:RNVectorIcons.xcodeproj">
+               BuildableName = "RNAgentumIconsTests.xctest"
+               BlueprintName = "RNAgentumIconsTests"
+               ReferencedContainer = "container:RNAgentumIcons.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5DBEB15A1B18CEA900B34395"
-               BuildableName = "RNVectorIconsTests.xctest"
-               BlueprintName = "RNVectorIconsTests"
-               ReferencedContainer = "container:RNVectorIcons.xcodeproj">
+               BuildableName = "RNAgentumIconsTests.xctest"
+               BlueprintName = "RNAgentumIconsTests"
+               ReferencedContainer = "container:RNAgentumIcons.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5DBEB14F1B18CEA900B34395"
-            BuildableName = "libRNVectorIcons.a"
-            BlueprintName = "RNVectorIcons"
-            ReferencedContainer = "container:RNVectorIcons.xcodeproj">
+            BuildableName = "libRNAgentumIcons.a"
+            BlueprintName = "RNAgentumIcons"
+            ReferencedContainer = "container:RNAgentumIcons.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5DBEB14F1B18CEA900B34395"
-            BuildableName = "libRNVectorIcons.a"
-            BlueprintName = "RNVectorIcons"
-            ReferencedContainer = "container:RNVectorIcons.xcodeproj">
+            BuildableName = "libRNAgentumIcons.a"
+            BlueprintName = "RNAgentumIcons"
+            ReferencedContainer = "container:RNAgentumIcons.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5DBEB14F1B18CEA900B34395"
-            BuildableName = "libRNVectorIcons.a"
-            BlueprintName = "RNVectorIcons"
-            ReferencedContainer = "container:RNVectorIcons.xcodeproj">
+            BuildableName = "libRNAgentumIcons.a"
+            BlueprintName = "RNAgentumIcons"
+            ReferencedContainer = "container:RNAgentumIcons.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
