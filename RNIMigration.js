@@ -1,18 +1,8 @@
 import React from 'react';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import Foundation from 'react-native-vector-icons/Foundation';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import Zocial from 'react-native-vector-icons/Zocial';
-import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
+import AgentumIcons from 'react-native-agentum-icons/AgentumIcons';
 
 const ICON_SET_MAP = {
-  fontawesome: FontAwesome,
-  foundation: Foundation,
-  ion: Ionicons,
-  material: MaterialIcons,
-  zocial: Zocial,
-  simpleline: SimpleLineIcons,
+  agentumicons: AgentumIcons,
 };
 
 // This is a composition is a drop in replacement for users migrating from the

@@ -2,9 +2,9 @@
  * Task to copy icon font files
  */
 
-def config = project.hasProperty("vectoricons") ? project.vectoricons : [];
+def config = project.hasProperty("agentumicons") ? project.agentumicons : [];
 
-def iconFontsDir = config.iconFontsDir ?: "../../node_modules/react-native-vector-icons/Fonts";
+def iconFontsDir = config.iconFontsDir ?: "../../node_modules/react-native-agentum-icons/Fonts";
 def iconFontNames = config.iconFontNames ?: [ "*.ttf" ];
 
 gradle.projectsEvaluated {

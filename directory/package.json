@@ -1,8 +1,8 @@
 {
-  "name": "react-native-vector-icons-directory",
+  "name": "react-native-agentum-icons-directory",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://oblador.github.io/react-native-vector-icons",
+  "homepage": "https://oblador.github.io/react-native-agentum-icons",
   "devDependencies": {
     "gh-pages": "^0.12.0",
     "react-scripts": "^0.8.4"

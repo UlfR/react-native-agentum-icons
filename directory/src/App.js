@@ -1,27 +1,9 @@
 import React, { Component, PropTypes } from 'react';
 import './App.css';
-import Entypo from '../../glyphmaps/Entypo.json';
-import EvilIcons from '../../glyphmaps/EvilIcons.json';
-import FontAwesome from '../../glyphmaps/FontAwesome.json';
-import Foundation from '../../glyphmaps/Foundation.json';
-import Ionicons from '../../glyphmaps/Ionicons.json';
-import MaterialCommunityIcons from '../../glyphmaps/MaterialCommunityIcons.json';
-import MaterialIcons from '../../glyphmaps/MaterialIcons.json';
-import SimpleLineIcons from '../../glyphmaps/SimpleLineIcons.json';
-import Octicons from '../../glyphmaps/Octicons.json';
-import Zocial from '../../glyphmaps/Zocial.json';
+import AgentumIcons from '../../glyphmaps/AgentumIcons.json';
 
 const IconFamilies = {
-  Entypo,
-  EvilIcons,
-  FontAwesome,
-  Foundation,
-  Ionicons,
-  MaterialCommunityIcons,
-  MaterialIcons,
-  SimpleLineIcons,
-  Octicons,
-  Zocial,
+  AgentumIcons,
 };
 
 class Icon extends Component {
@@ -44,7 +26,7 @@ const HeaderBar = (props) => {
     <div className="Header-Container">
       <div className="Header-Content">
         <h1 className="Header-Title">
-          react-native-vector-icons directory
+          react-native-agentum-icons directory
         </h1>
       </div>
     </div>
@@ -62,7 +44,7 @@ class SearchBar extends Component {
       <div className="Search-Container">
         <div className="Search-Content">
           <form onSubmit={this.handleSubmit}>
-            <Icon family="FontAwesome" name="search" className="Search-Icon" />
+            <Icon family="AgentumIcons" name="search" className="Search-Icon" />
             <input
               ref={ref => this.inputRef = ref}
               placeholder="Search for an icon"
