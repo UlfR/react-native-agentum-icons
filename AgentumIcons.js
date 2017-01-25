@@ -6,7 +6,7 @@
 import createIconSet from './lib/create-icon-set';
 import glyphMap from './glyphmaps/AgentumIcons.json';
 
-const iconSet = createIconSet(glyphMap, 'AgentumIcons', 'AgentumIcons.ttf');
+const iconSet = createIconSet(glyphMap, 'agentum', 'AgentumIcons.ttf');
 
 export default iconSet;
 
