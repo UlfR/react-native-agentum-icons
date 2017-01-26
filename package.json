@@ -1,7 +1,7 @@
 {
   "name": "react-native-agentum-icons",
-  "version": "1.0.0",
-  "description": "Customizable Icons for React Native with support for NavBar/TabBar, image source and full styling. Choose from 3000+ bundled icons or use your own.",
+  "version": "1.0.1",
+  "description": "Customizable Icons for React Native",
   "main": "index.js",
   "bin": {
     "generate-icon": "./generate-icon.js"
