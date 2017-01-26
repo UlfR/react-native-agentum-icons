@@ -24,3 +24,17 @@
 .icon-view-from-windows:before { content: '\e816'; } /* '' */
 .icon-windows:before { content: '\e817'; } /* '' */
 .icon-yard:before { content: '\e818'; } /* '' */
+.icon-apartments_other:before { content: '\e819'; } /* '' */
+.icon-building_other:before { content: '\e81a'; } /* '' */
+.icon-contacts_other:before { content: '\e81b'; } /* '' */
+.icon-cost_other:before { content: '\e81c'; } /* '' */
+.icon-entrance_other:before { content: '\e81d'; } /* '' */
+.icon-gallery_other:before { content: '\e81e'; } /* '' */
+.icon-location_other:before { content: '\e81f'; } /* '' */
+.icon-near-enviroment_other:before { content: '\e820'; } /* '' */
+.icon-parking_other:before { content: '\e821'; } /* '' */
+.icon-service_other:before { content: '\e822'; } /* '' */
+.icon-techs_other:before { content: '\e823'; } /* '' */
+.icon-traffic_other:before { content: '\e824'; } /* '' */
+.icon-windows_other:before { content: '\e825'; } /* '' */
+.icon-yard_other:before { content: '\e826'; } /* '' */

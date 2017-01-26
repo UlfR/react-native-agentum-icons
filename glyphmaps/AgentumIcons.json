@@ -23,5 +23,19 @@
   "traffic": 59413,
   "view-from-windows": 59414,
   "windows": 59415,
-  "yard": 59416
+  "yard": 59416,
+  "apartments_other": 59417,
+  "building_other": 59418,
+  "contacts_other": 59419,
+  "cost_other": 59420,
+  "entrance_other": 59421,
+  "gallery_other": 59422,
+  "location_other": 59423,
+  "near-enviroment_other": 59424,
+  "parking_other": 59425,
+  "service_other": 59426,
+  "techs_other": 59427,
+  "traffic_other": 59428,
+  "windows_other": 59429,
+  "yard_other": 59430
 }
