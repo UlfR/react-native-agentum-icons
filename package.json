@@ -1,6 +1,6 @@
 {
   "name": "react-native-agentum-icons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Customizable Icons for React Native",
   "main": "index.js",
   "bin": {

@@ -6,10 +6,10 @@
 //  Copyright (c) 2015 Joel Arvidsson. All rights reserved.
 //
 
-#import "RNAgentumIconsManager.h"
-#import "RCTConvert.h"
-#import "RCTBridge.h"
-#import "RCTUtils.h"
+#import <React/RNAgentumIconsManager.h>
+#import <React/RCTConvert.h>
+#import <React/RCTBridge.h>
+#import <React/RCTUtils.h>
 
 @implementation RNAgentumIconsManager
 
